@@ -1,0 +1,218 @@
+body {
+    background-color: rgb(13, 21, 39);
+    font-family: Arial;
+    font-weight: lighter;
+    max-width: 1600px;
+    margin: auto;
+}
+
+h1, h2, h3, h4, h5, h6, p, a {
+    color: white;
+}
+
+h2, h3 {
+    color: rgb(168, 201, 251);
+}
+
+.nav-bar {
+    background-color: rgb(50, 60, 95);
+    padding: 10px;
+}
+
+nav {
+    display: flex;
+    gap: 25px;
+}
+
+a {
+    text-decoration: none;
+}
+
+button {
+    color: white;
+    background-color: rgb(112, 166, 247);
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: rgb(26, 109, 233);
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+}
+
+.container {
+    padding: 10px;
+}
+
+.header-website-title {
+    display: flex;
+    gap: 50px;
+}
+
+.header-social-media {
+    display: flex;
+    flex-grow: 1;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.website-logo {
+    width: 100px;
+}
+
+.social-media-icon {
+    width: 50px;
+    height: 50px;
+}
+
+.header-ratings {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+main {
+    display: flex;
+    gap: 25px;
+    padding: 25px;
+}
+
+.article-container {
+    background-color: rgb(50, 60, 95);
+    border-radius: 15px;
+}
+
+.article-container-header {
+    padding-left: 25px;
+    padding-top: 1px;
+    padding-bottom: 1px;
+}
+
+.article-container-album-logo {
+    width: 200px;
+}
+
+.article-container-content {
+    background-color: rgb(26, 28, 39);
+    display: flex;
+    gap: 50px;
+    padding: 25px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+.articles-list {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.right-side-tab {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.right-side-tab-album-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    
+
+}
+
+.right-side-tab-album-grid img{
+    width: 90px;
+    margin: 5px;
+
+}
+
+/* =========================
+TABLET OPTIMIZATION
+========================= */
+
+@media (max-width: 1024px) {
+
+    main {
+        flex-direction: column;
+    }
+
+    .header-website-title {
+        flex-direction: column;
+        gap: 20px;
+        align-items: flex-start;
+    }
+
+    .header-social-media {
+        justify-content: flex-start;
+        gap: 15px;
+    }
+
+    .article-container-content {
+        flex-direction: column;
+        gap: 25px;
+    }
+
+    .article-container-album-logo {
+        width: 160px;
+    }
+
+    .right-side-tab {
+        width: 100%;
+    }
+
+}
+
+
+/* =========================
+MOBILE OPTIMIZATION
+========================= */
+
+@media (max-width: 600px) {
+
+    nav {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .header-ratings {
+        flex-direction: column;
+        gap: 5px;
+    }
+
+    .website-logo {
+        width: 70px;
+    }
+
+    .social-media-icon {
+        width: 35px;
+        height: 35px;
+    }
+
+    .article-container-album-logo {
+        width: 120px;
+    }
+
+    .article-container-content {
+        padding: 15px;
+    }
+
+    main {
+        padding: 15px;
+    }
+
+    .right-side-tab-album-grid img {
+        width: 70px;
+    }
+
+    button {
+        width: 100%;
+    }
+
+}
+
+thursday next week 8
