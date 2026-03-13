@@ -1,3 +1,7 @@
+/* =========================
+DESKTOP OPTIMISATION
+========================= */
+
 body {
     background-color: rgb(13, 21, 39);
     font-family: Arial;
@@ -10,7 +14,7 @@ h1, h2, h3, h4, h5, h6, p, a {
     color: white;
 }
 
-h2, h3 {
+h2, h3, h4 {
     color: rgb(168, 201, 251);
 }
 
@@ -132,7 +136,7 @@ main {
 }
 
 /* =========================
-TABLET OPTIMIZATION
+TABLET OPTIMISATION
 ========================= */
 
 @media (max-width: 1024px) {
@@ -169,7 +173,7 @@ TABLET OPTIMIZATION
 
 
 /* =========================
-MOBILE OPTIMIZATION
+MOBILE OPTIMISATION
 ========================= */
 
 @media (max-width: 600px) {
